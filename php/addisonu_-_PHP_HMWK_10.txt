@@ -1,0 +1,145 @@
+<html>
+<head><title>New Student Registration Form</title></head>
+
+<body>
+<h1>New Student Registration Form</h1><br><br>
+<form method = "POST" action = "new_student_reg.php">
+Last Name<font color = "red">*</font>:<input type = "textbox" name = "l_name">
+First Name<font color = "red">*</font>:<input type = "textbox" name = "f_name">
+Middle Initial:<input type = "textbox" size = "3" maxlength = "1" name = "m_i"><br><br>
+Date of birth <i>(mmddyyyy)</i><font color = "red">*</font>:
+ month<select name = "bday_m" size = "1">
+<option value = "">
+<option value = "01">Jan
+<option value = "02">Feb
+<option value = "03">Mar
+<option value = "04">Apr
+<option value = "05">May
+<option value = "06">Jun
+<option value = "07">Jul
+<option value = "08">Aug
+<option value = "09">Sep
+<option value = "10">Oct
+<option value = "11">Nov
+<option value = "12">Dec
+</select>
+ day<input type = "textbox" size = "3" maxlength = "2" name = "bday_d">
+ year<input type = "textbox" size = "3" maxlength = "4" name = "bday_y"><br><br>
+Address<font color = "red">*</font>:<input type = "textbox" size = "45" name = "address"><br><br>
+City<font color = "red">*</font>:<input type = "textbox" name = "city">
+State<font color = "red">*</font>:<select name = "state">
+<option value = "">
+<?php
+$mysql_info = file("mysql_info.txt");
+        $username = trim($mysql_info[0]);
+        $password = trim($mysql_info[1]);
+        $db_link = mysql_connect('localhost', $username, $password);
+	$query = "select s_abbreviation from state;";
+
+if(mysql_select_db("northwoods", $db_link))
+{
+        $result = mysql_query($query, $db_link);
+        $entries = mysql_num_rows($result);
+
+        for($n = 0; $n < $entries; $n++)
+{
+        $record = mysql_fetch_assoc($result);
+	print "<p><option value = \"".$record{'s_abbreviation'}."\">".$record{'s_abbreviation'}."</p>";
+}
+	mysql_free_result($result);
+	mysql_close($db_link);
+}
+?>
+</select>
+Zip Code<font color = "red">*</font>:<input type = "textbox" size = "7" maxlength = "5" name = "zip"><br><br>
+Phone <i>(xxx-xxx-xxxx)</i><font color = "red">*</font>: (<input type = "textbox" size = "3" name = "area_ph">) -
+<input type = "textbox" size = "3" name = "pre_ph"> -
+<input type = "textbox" size = "5" name = "suf_ph"><br><br>
+<input type = "reset" value = "clear">
+<input type = "submit" value = "submit">
+</form>
+<p><i>All fields followed by <font color = "red">*</font> are required</i></p>
+</body>
+<html>
+<html>
+<head><title>New Student Registration Process Page</title></head>
+
+<body>
+<?php
+#required fields define/undefine status
+if(preg_match("/^[a-z][a-z '-]*$/i", $_POST['l_name']))
+	{$l_name = $_POST['l_name'];}
+if(preg_match("/^[a-z][a-z '-]*$/i", $_POST['f_name']))
+	{$f_name = $_POST['f_name'];}
+if(preg_match("/^[a-z]$/i", $_POST['m_i']))
+	{$m_i = $_POST['m_i'];}
+if(
+!empty($_POST['bday_m']) &&
+ctype_digit($_POST['bday_d']) && strlen($_POST['bday_d']) == 2 &&
+ctype_digit($_POST['bday_y']) && strlen($_POST['bday_y']) == 4)
+	{$birth = $_POST['bday_y']."-".$_POST['bday_m']."-".$_POST['bday_d'];}
+if(preg_match("/^[0-9a-z \.-]*$/i", $_POST['address']))
+	{$address = $_POST['address'];}
+if(preg_match("/^[a-z \.'-]*$/i", $_POST['city']))	
+	{$city = $_POST['city'];}
+$state = $_POST['state'];
+if(ctype_digit($_POST['zip']) && strlen($_POST['zip']) == 5)
+	{$zip = $_POST['zip'];}
+if(
+ctype_digit($_POST['area_ph']) && strlen($_POST['area_ph']) == 3 &&
+ctype_digit($_POST['pre_ph']) && strlen($_POST['pre_ph']) == 3 &&
+ctype_digit($_POST['suf_ph']) && strlen($_POST['suf_ph']) == 4)
+	{$phone = $_POST['area_ph'].$_POST['pre_ph'].$_POST['suf_ph'];}
+if(!empty($l_name) && !empty($f_name) && !empty($address) && !empty($city) && !empty($state) && !empty($city) && !empty($zip) && !empty($phone) && !empty($birth))
+{
+	$s_pin = "";	
+	for($n = 0; $n < 4; $n++)
+	{
+		$s_pin = $s_pin.(rand(0, 9));
+	} 
+	$f_id = rand(1, 5);	
+
+	$mysql_info = file("mysql_info.txt");
+        $username = trim($mysql_info[0]);
+        $password = trim($mysql_info[1]);
+        $db_link = mysql_connect('localhost', $username, $password);
+
+	if(mysql_select_db("northwoods", $db_link))
+	{
+		$query = 	"INSERT INTO student_addisonu 
+				(s_last, s_first, s_mi, s_address, s_city, s_state, s_zip, s_phone,
+				s_class, s_dob, s_pin, f_id) 
+				VALUES ('$l_name', '$f_name', '$m_i', '$address', '$city', '$state', 
+				'$zip', '$phone', 'FR', '$birth', '$s_pin', '$f_id');";
+		$update = mysql_query($query, $db_link);
+		if($update)
+		{
+			print "Your registration has been successful,
+			 and your new pin number is $s_pin.";
+		}	
+	}
+	if(mysql_close($db_link)){print "<i><br><br>Request completed</i>\n";}
+
+}
+else
+{
+	$field = array("l_name"=>"Last Name", "f_name"=>"First Name", "m_i"=>"Middle Initial", "bday_m"=>"Date of birth", "bday_d"=>"Date of birth", "bday_y"=>"Date of birth", "address"=>"Address", "city"=>"City", "state"=>"State", "zip"=>"Zip Code", "area_ph"=>"Phone Number", "pre_ph"=>"Phone Number", "suf_ph"=>"Phone Number"); 
+	
+	print "<font size = '5'><b>You must complete all required fields.
+	Currently, the following fields have been left blank or entered incorrectly:
+		<br><br></b></font><font size = '4'>";
+	foreach ($field as $input)
+	{
+		$input_key = array_search($input, $field); 
+		
+		if(empty($_POST[$input_key]) && $input_key != "m_i"){$blank_field[$input] = $input_key;}
+	}
+	foreach(array_keys($blank_field) as $empty_key)
+	{
+		print "$empty_key <br>";
+	}	
+	print "<br>Please <a href=http://hills.ccsf.edu/~addisonu/new_student_reg_form.php>return</a> to the new student registration form and complete it.</font>";
+}
+?>
+</body>
+</html>
