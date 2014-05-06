@@ -1,0 +1,138 @@
+ CRN     SUBJ CRSE SEC  UNIT   DAYS  AND  TIMES  BLDG ROOM INSTRUCTOR
+32103    CIS  100M 001   3.0  MW    0930  1059  BATL 451  Wong, Jane S
+32109    CIS  100M 002   3.0   TR   0930  1059  BATL 451  Metzler, Charles
+32113    CIS  100M 003   3.0   TR   1100  1229  BATL 451  Metzler, Charles
+32116    CIS  100M 004   3.0   T     1600  1859  BATL 451  Mauzey, Karl P
+32122    CIS  100M 501   3.0   T     1900  2159  BATL 451  Viray, Edmund G
+32126    CIS  100M 502   3.0    W    1800  2059  BATL 451  Mauzey, Karl P
+32128    CIS  100P 001   3.0  MW    0800  0929  CLOU 203  Calvin, Dorothy
+33340    CIS  100P 002   3.0  MW    0930  1059  CLOU 203  Calvin, Dorothy
+32131    CIS  100P 003   3.0  MW    1100  1229  CLOU 203  Wong, Jane S
+32133    CIS  100P 004   3.0  MW    1230  1359  CLOU 203  Wong, Jane S
+32137    CIS  100P 005   3.0  MW    1400  1529  CLOU 203  Mauzey, Karl P
+33419    CIS  100P 006   3.0  MW    1530  1659  CLOU 203  Thiry, Pierre S
+32140    CIS  100P 007   3.0   TR   0800  0929  CLOU 203  Calvin, Dorothy
+33341    CIS  100P 008   3.0   TR   0930  1059  CLOU 203  Boegel, Thomas P
+32149    CIS  100P 009   3.0   TR   1100  1229  CLOU 203  Calvin, Dorothy
+32141    CIS  100P 010   3.0   TR   1230  1359  CLOU 203  Endres, Rose M
+32143    CIS  100P 011   3.0   TR   1400  1529  CLOU 203  Endres, Rose M
+32152    CIS  100P 501   3.0  M      1900  2159  ARTX 183  Viray, Edmund G
+32155    CIS  100P 502   3.0   T     1800  2059  BATL 413  Endres, Rose M
+32156    CIS  100P 503   3.0     R   1900  2159  SCIE 215  Unassigned
+32162    CIS  101  001   3.0  MW    0800  0929  BATL 451  Jones, John W
+32164    CIS  101  002   3.0  MW    0930  1059  BATL 453  Jones, John W
+32175    CIS  101  003   3.0   TR   0800  0929  BATL 553  Kwok, Hon-Chung
+32179    CIS  101  004   3.0   TR   1100  1229  SCIE 100  Webb, Nancy J
+32184    CIS  101  591   3.0       S 0900  1159  BATL 511  Jones, John W
+30705    CIS  102E 401   1.0  MW    0800  0859  BATL 411  Hanada, Violet S
+32223    CIS  102E 402   1.0  M      1400  1559  BATL 453  Calvin, Dorothy
+32235    CIS  102W 401   1.0   TR   1000  1059  SCIE 215  Common, Kurt
+32239    CIS  102W 402   1.0   TR   1000  1059  SCIE 215  Common, Kurt
+32244    CIS  102W 403   1.0  M      1400  1559  BATL 453  Calvin, Dorothy
+32247    CIS  102W 404   1.0  M      1630  1759  BATL 451  Rubin, Stephen R
+32252    CIS  102W 405   1.0   T     1430  1559  BATL 451  Rubin, Stephen R
+32259    CIS  102W 601   1.0     R   1800  2059  BATL 451  Hanada, Violet S
+32260    CIS  104  001   3.0   TR   1430  1559  SCIE 214  Lamha, Carmen
+32261    CIS  104  002   3.0   T     1600  1859  SCIE 214  Lamha, Carmen
+33347    CIS  104  003   3.0     R   1600  1859  SCIE 214  Lamha, Carmen
+32264    CIS  104  501   3.0   T     1900  2159  SCIE 214  Lamha, Carmen
+32266    CIS  104  502   3.0     R   1900  2159  SCIE 214  Lamha, Carmen
+32269    CIS  110A 001   3.0  MW    0800  0959  BATL 413  Kelly, Michael A
+33359    CIS  110A 002   3.0  MW    0900  1059  BATL 411  Beaver, William
+32273    CIS  110A 003   3.0  MW    1000  1159  BATL 413  Rule, Ann P
+33360    CIS  110A 004   3.0  MW    1100  1259  ARTX 262  Kelly, Michael A
+33361    CIS  110A 005   3.0  MW    1300  1459  BATL 413  Rule, Ann P
+32276    CIS  110A 006   3.0   TR   0900  1059  ARTX 183  Beaver, William
+32285    CIS  110A 007   3.0   TR   1100  1259  ARTX 183  Kelly, Michael A
+32291    CIS  110A 501   3.0  MW    1930  2129  BATL 553  Pollack, Bary W.
+ CRN     SUBJ CRSE SEC  UNIT   DAYS  AND  TIMES  BLDG ROOM INSTRUCTOR
+33465    CIS  110A 591   3.0       S 0900  1259  BATL 551  Choy, Kit Hoi
+33362    CIS  110B 001   3.0  MW    1000  1159  ARTX 183  Conner, Constanc
+33416    CIS  110B 002   3.0  MW    1100  1259  BATL 451  Unassigned
+32298    CIS  110B 003   3.0   TR   1430  1629  BATL 413  Abensohn, Steven
+33363    CIS  110B 501   3.0  MW    1900  2059  BATL 651  McCoy, Casey Don
+32300    CIS  110B 502   3.0   TR   1900  2059  ARTX 183  Conner, Constanc
+33203    CIS  110C 001   3.0   TR   1230  1429  BATL 413  Abensohn, Steven
+33204    CIS  110C 501   3.0  MW    1930  2129  SCIE 215  Abensohn, Steven
+32302    CIS  111  001   3.0   TR   1000  1159  BNGL 316  Baptiste, Willia
+32303    CIS  111  002   3.0   TR   1300  1459  ART  309  Baptiste, Willia
+32308    CIS  111  591   3.0       S 1000  1159  BATL 713  Baptiste, Willia
+32314    CIS  112  001   3.0  MW    1000  1159  CLOU 219  Lallas, James M
+33342    CIS  113  001   3.0  MW    1300  1459  BNGL 316  Baptiste, Willia
+32323    CIS  118  001   3.0   TR   1300  1459  ARTX 180  Rule, Ann P
+32324    CIS  118  501   3.0   TR   1800  1959  BATL 513  Rule, Ann P
+33343    CIS  121  001   3.0  MW    1000  1159  BNGL 316  Baptiste, Willia
+32336    CIS  121  591   3.0       S 1000  1359  BATL 349  Barnhart, Jere L
+32337    CIS  130  001   3.0   TR   1230  1359  BATL 411  Wood, Peter M
+32340    CIS  130  501   3.0    W    1900  2159  BATL 413  Wood, Peter M
+32345    CIS  131  001   3.0  M      0800  1059  SCIE 214  Taha, Richard R
+33358    CIS  131  002   3.0    W    1500  1759  SCIE 214  Taha, Richard R
+32346    CIS  131  003   3.0      F  0900  1159  SCIE 214  Koffman, Laraine
+32348    CIS  131  501   3.0  M      1800  2059  BATL 451  Mauzey, Karl P
+32350    CIS  131  502   3.0   T     1900  2159  BATL 453  Koffman, Laraine
+33415    CIS  132T 001   3.0  MW    1630  1759  BATL 453  Wood, Peter M
+32353    CIS  134A 001   3.0   TR   0930  1059  BATL 453  Endres, Rose M
+33354    CIS  134A 501   3.0     R   1800  2059  BATL 411  Endres, Rose M
+32355    CIS  134B 501   3.0   T     1900  2159  SCIE 136  Beaver, William
+32362    CIS  135A 001   3.0  MW    0930  1059  SCIE 215  Thiry, Pierre S
+32363    CIS  135A 002   3.0  MW    1100  1229  BATL 411  Boegel, Thomas P
+32364    CIS  135A 003   3.0  MW    1230  1359  SCIE 215  Thiry, Pierre S
+32365    CIS  135A 004   3.0   TR   0930  1059  BATL 413  Ludkey, Norbert
+32368    CIS  135A 005   3.0   TR   1100  1229  BATL 453  Koffman, Laraine
+32370    CIS  135A 006   3.0   TR   1230  1359  SCIE 215  Thiry, Pierre S
+32373    CIS  135A 007   3.0   TR   1400  1529  BATL 453  Kadlecek, David
+32379    CIS  135A 008   3.0   T     1600  1859  BATL 453  Rubin, Stephen R
+32381    CIS  135A 501   3.0  M      1800  2059  BATL 453  Rubin, Stephen R
+33414    CIS  135A 503   3.0    W    1900  2159  MIS  404  Boegel, Thomas P
+32388    CIS  135A 504   3.0     R   1830  2129  BATL 453  Kadlecek, David
+32375    CIS  135A 591   3.0       S 1130  1429  BATL 453  Rahman, David
+32392    CIS  135B 001   3.0   TR   1100  1229  BATL 413  Ludkey, Norbert
+33357    CIS  135B 501   3.0  M      1800  2059  BATL 411  Thiry, Pierre S
+32393    CIS  135B 502   3.0   T     1700  1959  BATL 411  Wostner, Ulf T
+32396    CIS  135B 503   3.0     R   1700  1959  BATL 413  Wostner, Ulf T
+32397    CIS  136  001   3.0  MW    0830  0959  ARTX 183  Conner, Constanc
+32402    CIS  136  501   3.0     R   1830  2129  BATL 551  Figliulo, Mary C
+ CRN     SUBJ CRSE SEC  UNIT   DAYS  AND  TIMES  BLDG ROOM INSTRUCTOR
+33355    CIS  141  001   3.0   TR   0800  0959  BNGL 316  Kelly, Michael A
+32403    CIS  141  501   3.0  MW    1900  2059  SCIE 100  Beaver, William
+32406    CIS  141  591   3.0       S 0800  1159  BATL 553  Stuart, John
+33356    CIS  141  592   3.0       S 1200  1559  BATL 553  Stuart, John
+32407    CIS  142  501   3.0  MW    1730  1929  SCIE 215  Abensohn, Steven
+33426    CIS  144  501   3.0     R   1900  2159  SCIE 136  Moghtanei, Abbas
+33339    CIS  164  001   2.0      F  0800  0959  BATL 413  Calvin, Dorothy
+32423    CIS  164  501   2.0  M      1900  2059  BNGL 212  Lin, Julius
+33413    CIS  165  001   3.0  MW    0800  0929  BATL 453  Unassigned
+32430    CIS  165  002   3.0  MW    1100  1229  BATL 453  Webb, Nancy J
+32432    CIS  165  003   3.0  MW    1230  1359  BATL 453  Webb, Nancy J
+32434    CIS  165  004   3.0   TR   0800  0929  BATL 453  Lamha, Carmen
+32440    CIS  165  501   3.0  MW    1730  1859  BATL 413  Lamha, Carmen
+32444    CIS  165  502   3.0   T     1900  2159  BATL 511  Eskandari, Fatta
+32447    CIS  165  503   3.0     R   1800  2059  BATL 511  Fung, Allen Q
+32438    CIS  165  591   3.0       S 0830  1129  BATL 453  Rahman, David
+32453    CIS  167  001   3.0  MW    1100  1229  SCIE 215  Pollack, Kimberl
+32455    CIS  167  002   3.0  MW    1230  1359  BATL 411  Pollack, Kimberl
+32459    CIS  167  003   3.0   TR   1100  1229  SCIE 215  Kadlecek, David
+33412    CIS  167  004   3.0   TR   1400  1529  BATL 411  Koffman, Laraine
+32645    CIS  167  005   3.0      F  0900  1159  BATL 451  Pollack, Kimberl
+33353    CIS  167  381   3.0    W    1600  1859  DNTN 425  Koffman, Laraine
+32647    CIS  167  501   3.0  M      1800  2059  ARTX 188  Endres, Rose M
+32649    CIS  167  502   3.0     R   1900  2159  BATL 651  Unassigned
+32656    CIS  167  581   3.0    W    1900  2159  DNTN 425  Koffman, Laraine
+33352    CIS  167  591   3.0       S 0900  1159  BATL 411  Koffman, Laraine
+33427    CIS  167P 001   3.0  MTWR   1400  1459  ARTX 183  Wostner, Ulf T
+32658    CIS  167P 501   3.0   TR   1700  1859  ARTX 183  Conner, Constanc
+32662    CIS  169  001   3.0   TR   1100  1229  BATL 411  Wood, Peter M
+32665    CIS  169  501   3.0    W    1900  2159  SCIE 136  Moghtanei, Abbas
+33411    CIS  169  502   3.0  M      1900  2159  BATL 413  Unassigned
+32678    CIS  170  501   3.0  M      1900  2159  SCIE 136  Moghtanei, Abbas
+32689    CIS  171  001   3.0   TR   1230  1359  BATL 453  Webb, Nancy J
+32703    CIS  171  501   3.0    W    1900  2159  ARTX 183  Kwok, Hon-Chung
+32696    CIS  171  591   3.0       S 0900  1159  SCIE 215  Kwok, Hon-Chung
+32714    CIS  183  001   3.0   TR   0900  1059  BATL 411  Bass, Dana
+32719    CIS  183  002   3.0   TR   1230  1429  BATL 451  Bass, Dana
+32730    CIS  184  501   3.0    W    1700  2059  BATL 411  Bass, Dana
+33351    CIS  185  591   3.0       S 0900  1259  BATL 451  Bass, Dana
+33348    CIS  320  001   2.0  M      1500  1759  SCIE 214  Taha, Richard R
+33349    CIS  320  501   2.0    W    1800  2059  SCIE 214  Taha, Richard R
+33350    CIS  321  501   2.0  M      1800  2059  SCIE 214  Taha, Richard R
+33422    CIS  330  001   2.0     R   1500  1759  BATL 451  Cancelled
