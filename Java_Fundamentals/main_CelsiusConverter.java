@@ -46,10 +46,10 @@ class CelsiusConverter extends JFrame{
         panel = new JPanel();
 
 //Add panel components to panel
-    panel.add(messageLabel);
-    panel.add(celsiusTextField);
-    panel.add(calcButton);
-    panel.add(resultLabel);
+        panel.add(messageLabel);
+        panel.add(celsiusTextField);
+        panel.add(calcButton);
+        panel.add(resultLabel);
     }
 
 //Action listener class for Calculate button
