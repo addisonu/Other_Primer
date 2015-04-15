@@ -37,6 +37,26 @@ public class NumberGuesser{
     {
         return (high + low)/2;
     }
+
+    public int getHigh()
+    {
+        return high;
+    }
+
+    public void setHigh(int upperBound)
+    {
+        high = upperBound;
+    }
+
+    public int getLow()
+    {
+        return low;
+    }
+
+    public void setLow(int lowerBound)
+    {
+        low = lowerBound;
+    }
 // DATA MEMBERS //
     private int high;
     private int init_high;
