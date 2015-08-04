@@ -1,0 +1,18 @@
+section {
+    font-family: 'Droid Sans', sans-serif;
+}
+
+li {
+    display: inline;
+}
+
+article {
+    border-style: solid;
+    border-width: medium;
+    background-color: #CCFFFF;
+    width: 640px;
+}
+
+body {
+    background-image: url('texture.png');
+}
