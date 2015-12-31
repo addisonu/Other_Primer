@@ -1,0 +1,9 @@
+Food,Apple,produce,200		
+Food,Falafel sandwhich,fastfood,7.25		
+Food,bubble tea,other,6.25
+Auto,Catalac CTS,254,19.4			
+Auto,BMW M5,632,16.5			
+Auto,Aston Martin,11000,16.0
+Building,Savant Co-op,30000	
+Building,Sears Tower,45339
+Building,Chysler Building,64522
